@@ -17,7 +17,7 @@
                 Click the button below to take a look at restaurants.
             </p>
 
-            <b-button variant="success" href="#">Explore</b-button>
+            <b-button to="restaurants" variant="success">Explore</b-button>
         </b-jumbotron>
     </div>
 </template>

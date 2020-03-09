@@ -26,14 +26,19 @@
                 selected: null,
                 options: [
                     { value: null, text: 'Please select a price level' },
-                    { value: 'a', text: '$' },
-                    { value: 'b', text: '$$' },
-                    { value: { C: '3PO' }, text: '$$$' },
-                    { value: 'd', text: '$$$$' }
+                    { value: '$', text: '$' },
+                    { value: '$$', text: '$$' },
+                    { value: '$$$', text: '$$$' },
+                    { value: '$$$$', text: '$$$$' }
                 ]
             }
         },
-        name: "PricesCard"
+        name: "PricesCard",
+        computed: {
+            chosenPrice() {
+                return this.selected
+            }
+        }
     }
 </script>
 

@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <Header />
-    <Homepage />
+    <router-view />
   </div>
 </template>
 
 <script>
   import Header from "./components/Homepage/Header";
-  import Homepage from "./components/Homepage/Homepage";
+ // import Homepage from "./components/Homepage/Homepage";
+  //import RestaurantsPage from "./components/RestaurantsPage/RestaurantsPage";
   export default {
   name: 'App',
   components: {
-    Homepage,
+    //RestaurantsPage,
+    //Homepage,
     Header
   }
 }
