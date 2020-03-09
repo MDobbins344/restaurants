@@ -2,7 +2,7 @@ import '@babel/polyfill'
 import 'mutationobserver-shim'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import './plugins/bootstrap-vue'
+import './restaurantsApp/plugins/bootstrap-vue'
 import App from './App.vue'
 //import Axios from "axios";
 //import VueAxios from "vue-axios";

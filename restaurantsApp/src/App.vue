@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import Header from "./components/Homepage/Header";
+  import Header from "./restaurantsApp/components/Homepage/Header";
  // import Homepage from "./components/Homepage/Homepage";
   //import RestaurantsPage from "./components/RestaurantsPage/RestaurantsPage";
   export default {
